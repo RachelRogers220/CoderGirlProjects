@@ -1,0 +1,17 @@
+public class Stitch
+{
+
+    //has-a
+    //stitch type
+    protected String stitchType;
+
+    public Stitch()
+    {
+
+    }
+    public void sew()
+    {
+        System.out.print(stitchType);
+    }
+
+}
